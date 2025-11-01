@@ -1,5 +1,6 @@
 import Constitutioner from "./img/constitutioner.png";
-import Lin_Alg from "./img/lin-alg.png";
+import Conversate from "./img/conversate.png";
+import NerdHub from "./img/nerdhub.png";
 
 export const projectsData = [
   {
@@ -11,7 +12,6 @@ export const projectsData = [
     description:
       "A legal assistant that processes and embeds the Indian Constitution for fast, similarity-based retrieval using Pinecone. Developed both GUI and CLI interfaces with real-time LLM responses via OpenRouter API. Implemented prompt engineering to improve accuracy and minimize hallucinations.",
     git: "https://github.com/varshithpilli/constitutioner",
-    demo: "https://varshithpilli.github.io/quiz-app/",
     tech: [
       {
         id: 1,
@@ -38,32 +38,49 @@ export const projectsData = [
   {
     id: 2,
     type: "web",
-    img: Lin_Alg,
-    alt: "Image of Lin-Alg Tool",
-    title: "Lin-Alg Toolkit",
-    description:
-    "Built and deployed a lightweight Flask backend providing 10+ linear algebra operations via RESTful APIs. Designed modular, well-documented endpoints for seamless integration and hands-on experience with backend development and API design.",
-    git: "https://github.com/varshithpilli/Lin-Alg",
+    img: Conversate,
+    alt: "Image of Conversate",
+    title: "Conversate",
+    description: 
+      "A PDF-based conversational assistant that allows users to upload documents, automatically extract and process their content, and engage in interactive, context-aware question-answering through a chat interface.",
+    git: "https://github.com/varshithpilli/conversate",
     tech: [
       {
         id: 1,
         color: "green",
-        tech: "Flask",
+        tech: "AWS Bedrock",
       },
       {
         id: 2,
         color: "blue",
-        tech: "HTML",
+        tech: "FastAPI",
       },
       {
         id: 3,
         color: "purple",
-        tech: "CSS",
+        tech: "PyTesseract",
+      },
+    ],
+  },
+  {
+    id: 3,
+    type: "web",
+    img: NerdHub,
+    alt: "Image of Nerdhub",
+    title: "NerdHub",
+    description: 
+      "NerdHub is my personal playground for all things tech or therwise, a space where I showcase the side projects I build for fun",
+    git: "https://github.com/varshithpilli/nerdhub",
+    tech: [
+      {
+        id: 1,
+        color: "green",
+        tech: "React",
       },
       {
-        id: 4,
-        color: "purple",
-        tech: "JS",
+        id: 2,
+        color: "blue",
+        tech: "shadcn/ui",
       },
     ],
   },
